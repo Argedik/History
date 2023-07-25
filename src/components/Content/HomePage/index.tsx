@@ -59,7 +59,7 @@ export const HomePage = () => {
 					playsInline
 				></video>
 			</section>
-			<main className="flex min-h-screen flex-col items-center justify-between p-24 overflow-hidden container m-auto">
+			<main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-24 overflow-hidden container m-auto">
 				<section id="slider-video-section">
 					{' '}
 					<div className="flex flex-wrap">{pagedItems}</div>
@@ -78,8 +78,10 @@ export const HomePage = () => {
 					</div>
 				</section>
 				<section id="about-me" className="w-full">
-					<div className="font-bold text-5xl my-8">PODCAST OLMALIYMIŞ</div>
-					<div className="flex gap-x-8">
+					<div className="font-bold mt-12 md:mt-8 text-3xl md:text-5xl my-8">
+						PODCAST OLMALIYMIŞ
+					</div>
+					<div className="flex gap-x-8 md:flex-row flex-col gap-3">
 						<div>
 							<Image
 								src={

@@ -10,12 +10,15 @@ import {
 const Footer = () => {
 	return (
 		<footer className="w-full bg-[#ffffb9]">
-			<section id="sub-form" className="h-[90vh] p-24 m-auto container">
+			<section
+				id="sub-form"
+				className="h-[90vh] p-1 md:p-24 m-auto container translate-y-30"
+			>
 				<div
 					id="form-content"
 					className="border-solid border-8 border-black p-8 bg-white"
 				>
-					<div className="font-bold text-5xl">
+					<div className="font-bold text-2xl md:text-5xl">
 						ŞİMDİYE DEK 60.000 KİŞİ ABONE OLMADI AMA OLACAKTIR
 					</div>
 					<div className="mt-8 mb-4 text-lg">
@@ -26,7 +29,7 @@ const Footer = () => {
 				</div>
 			</section>
 			<section id="social-media">
-				<div className="relative h-[100vh] w-[100vw] -m-5 flex">
+				<div className="relative h-[100vh] w-[100vw] m-0 md:-m-5 flex">
 					<Image
 						src="https://dotcompatterns.files.wordpress.com/2022/08/florian-haun-nj-fumab6di-unsplash.jpg"
 						alt="Social media background"
