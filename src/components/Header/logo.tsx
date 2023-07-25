@@ -18,7 +18,7 @@ export const Logo = ({ className }: Props) => {
 					className="mr-3"
 				/>
 				<h1
-					className={`${className}font-bold text-white text-2xl self-center whitespace-nowrap`}
+					className={`${className}font-bold text-black md:text-white text-2xl self-center whitespace-nowrap`}
 				>
 					Dünyadan
 				</h1>

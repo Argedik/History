@@ -21,7 +21,7 @@ const Path = ({ variants, transition, d, ...props }: PathProps) => {
 			transition={transition}
 			fill="transparent"
 			strokeWidth="3"
-			stroke="white"
+			stroke="black"
 			strokeLinecap="round"
 			{...props}
 		/>
@@ -31,7 +31,7 @@ const Path = ({ variants, transition, d, ...props }: PathProps) => {
 export const HamburgerMenu: React.FC<Props> = ({ onClick }) => {
 	return (
 		<button onClick={() => onClick()} className="block md:hidden z-10">
-			<svg width="23" height="23" viewBox="0 0 23 23" fill="#fff">
+			<svg width="23" height="23" viewBox="0 0 23 23" fill="#000">
 				<Path
 					variants={{
 						//d: Specifies the shape of the path element, M: x and y coordinate where the line starts, L: x and y coordinate where the line ends
